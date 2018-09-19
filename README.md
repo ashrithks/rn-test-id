@@ -3,7 +3,7 @@
 
 ## Getting started
 
-`$ npm install react-native-test-id --save`
+`$ npm install rn-test-id --save`
 
 A convenient way to set test id for React-Native components
 
@@ -11,7 +11,7 @@ A convenient way to set test id for React-Native components
 ```js
 import React from 'react'
 import { View, Text } from 'react-native'
-import testID from 'react-native-testid'
+import testID from 'rn-test-id'
 
 function SuperComponent({ testId }) {
   return (

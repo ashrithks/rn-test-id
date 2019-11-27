@@ -15,7 +15,7 @@ import testID from 'rn-test-id'
 
 function SuperComponent({ testId }) {
   return (
-    <View {...testID(testId)}>
+    <View {...testID(testId,false,false)}>
       <Text>My Super Component</Text>
     </View>
   )
